@@ -9,13 +9,13 @@ model info:
             n_layer=7,
             n_head=4
 
-Metric          Value
-Parameters      5.6 million
-Tokens Used     8.1 million (chunked to 256 induvidual tokens)
-Epochs          70
-Compute Used    ~6.41 petaFLOPs(not accounting for 
-Time            ~18 hours
-Precision       Float32
-Device          Apple M3 GPU (Integrated 8core gpu)
+
+	•	Parameters: 5.6 million
+	•	Tokens Used: 8.1 million (chunked to 256 individual tokens)
+	•	Epochs: 70
+	•	Compute Used: ~6.41 petaFLOPs (not accounting for )
+	•	Time: ~18 hours
+	•	Precision: Float32
+	•	Device: Apple M3 GPU (Integrated 8core gpu)
 
 
