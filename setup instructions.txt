@@ -1,0 +1,16 @@
+Setup instructions
+
+1. clone the repository 
+git clone https://github.com/yourusername/MiniGPT-M3.git
+cd MiniGPT-M3
+
+2.Install dependencies
+Make sure you have Python ≥ 3.9 and PyTorch installed (Apple Silicon with MPS support recommended). Then run
+pip install -r requirements.txt
+
+3.Download the dataset
+Raw pre-training dataset (8.1M tokens): https://drive.google.com/file/d/1G5FUqxSF_JjiiPswjwIi44wabs6D08d9/view?usp=sharing
+Chunked dataset (torch.Size([31778, 256])): https://drive.google.com/file/d/1Pfulup4ohBB9dAvIyramZlszAfVf70_2/view?usp=sharing
+
+4.Run training
+run this in terminal: python SML_pre_train.py
