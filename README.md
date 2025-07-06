@@ -13,9 +13,11 @@ model info:
 	•	Parameters: 5.6 million
 	•	Tokens Used: 8.1 million (chunked to 256 individual tokens)
 	•	Epochs: 70
-	•	Compute Used: ~6.41 petaFLOPs (not accounting for )
+	•	measured compute: ~6.41 petaFLOPs (forward + backward passes only, FP32)
+        •	Estimated Total Compute: ~12 petaFLOPs (including LayerNorms, bias ops, optimizer steps, etc.)
 	•	Time: ~18 hours
 	•	Precision: Float32
 	•	Device: Apple M3 GPU (Integrated 8core gpu)
 
+⚠️ Measured compute does not account for additional ops like LayerNorm, activation functions, optimizer updates, or memory overhead. Estimated compute does.
 
