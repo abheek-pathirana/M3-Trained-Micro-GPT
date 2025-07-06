@@ -14,3 +14,4 @@ Chunked dataset (torch.Size([31778, 256])): https://drive.google.com/file/d/1Pfu
 
 4.Run training
 run this in terminal: python SML_pre_train.py
+this will run for over 16hours on a m3 macbook air (16gb ram, 8core gpu).
