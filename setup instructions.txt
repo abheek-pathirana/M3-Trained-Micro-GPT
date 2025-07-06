@@ -1,8 +1,7 @@
 Setup instructions
 
 1. clone the repository 
-git clone https://github.com/yourusername/MiniGPT-M3.git
-cd MiniGPT-M3
+git clone https://github.com/abheek-pathirana/M3-Trained-Micro-GPT.git cd micro-gpt-m3
 
 2.Install dependencies
 Make sure you have Python ≥ 3.9 and PyTorch installed (Apple Silicon with MPS support recommended). Then run
